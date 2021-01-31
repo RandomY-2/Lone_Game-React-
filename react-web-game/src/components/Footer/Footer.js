@@ -1,11 +1,11 @@
 import React from 'react';
-import { withRouter } from "react-router";
+import './Footer.css';
 
 const Footer = () => {
     const pathname = window.location.pathname;
 
     return (
-        <footer className={pathname === '/' ? "page-footer font-small bg-dark" : "page-footer fixed-bottom font-small bg-dark"}   >
+        <footer className={pathname === '/' ? "page-footer font-small bg-dark" : "page-footer game-footer font-small bg-dark"}   >
             <div className="container text-center text-md-left">
                 <div className="row">
                     <div className="col-md-3 mx-auto">
