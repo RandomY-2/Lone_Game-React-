@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Jumbo from '../Jumbotron/Game_Jumbo';
-import Game from  '../Games/Game';
+import Game from  '../Games/SnakeGame';
 import Footer from '../Footer/Footer';
 
 const SnakeGame = () => {
